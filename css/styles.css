@@ -11,27 +11,73 @@
 
 body {
   background:rgb(237, 239, 242);
+  font-family: 'Varela Round', sans-serif;
 }
 
-.contacts, .contact-number, .down-arrow {
+button {
+  float: left;
+}
+.button-java {
+  clear: both;
+}
+
+.header-right {
+  float: left;
+  vertical-align: middle;
+}
+
+.django, .javafx {
+  float: right;
+}
+
+.info {
+  margin-top: 3%;
+  width: 45%;
+}
+
+.info-icon {
+  float: left;
+
+}
+
+.info-main {
+  background: white;
+
+}
+
+.java-header {
+  background: green;
+  color: white;
+  overflow: auto;
+  padding: 20px;
+}
+
+#time {
+  float: right;
   margin: 0;
 }
 
-.contact-number {
+.navbar li {
+  color: #b0b0b0;
   font-size: 30;
 }
 
-.down-arrow {
+.fa-angle-down {
   width: 50%;
-  bottom: 20%;
+  border-right: 1px solid #b0b0b0;
+  padding-right: 20px;
 }
+
+.java, .woocommerce {
+  float: left;
+}
+
 
 .navbar {
   background:rgb(237, 239, 242);
   padding:5px 10px;
   /*border: 1px solid darkgrey;*/
   overflow: auto;
-  font-family: 'Varela Round', sans-serif;
   margin-bottom: 0;
   box-shadow: 0px 9px 25px #888888;
 }
@@ -44,6 +90,7 @@ body {
 
 .navbar h1 {
   float: left;
+  color: #565656;
 }
 
 .navbar li {
